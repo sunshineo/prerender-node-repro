@@ -37,7 +37,7 @@ Again, replace 192.168.99.100 with approperate ip address
 ## Hit the normal page
 Open http://www.mydomain.com/ in browser or 
 ```
-curl curl http://www.mydomain.com/
+curl http://www.mydomain.com/
 ```
 You should see
 ```
@@ -47,7 +47,7 @@ You should see
 ## Hi the prerender
 Open http://www.mydomain.com/?_escaped_fragment_= in browser or 
 ```
-curl curl http://www.mydomain.com/?_escaped_fragment_=
+curl http://www.mydomain.com/?_escaped_fragment_=
 ```
 You should see
 ```

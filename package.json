@@ -1,0 +1,13 @@
+{
+  "name": "prerender-node-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.4",
+    "morgan": "1.7.0",
+    "prerender-node": "2.3.0"
+  }
+}

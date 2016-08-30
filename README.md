@@ -1,4 +1,4 @@
-# How to use this repo to reproduct https://github.com/prerender/prerender-node/issues/115
+# How to use this repo to reproduce https://github.com/prerender/prerender-node/issues/115
 
 ## git clone this repo
 ```

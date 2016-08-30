@@ -18,6 +18,7 @@ docker run -it --rm -P \
 --add-host prerender.mydomain.com:192.168.99.100 \
 prerender-node-repro
 ```
+Note: I'm using Mac and docker-machine, so 192.168.99.100 is my docker vm ip address. You can find out yours using `docker-machine env default`. If you are using Linux or native docker on Mac or Windows, that address should simply be 127.0.0.1 or localhost
 
 ##Open another terminal and run
 ```
@@ -25,7 +26,6 @@ docker run -it --rm -p 80:80 \
 --link www:www \
 dockercloud/haproxy:1.4.2
 ```
-Note: I'm using Mac and docker-machine, so 192.168.99.100 is my docker vm ip address. You can find out yours using `docker-machine env default`. If you are using Linux or native docker on Mac or Windows, that address should simply be 127.0.0.1 or localhost
 
 ## Edit your /etc/hosts file and add
 ```
